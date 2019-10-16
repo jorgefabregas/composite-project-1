@@ -238,17 +238,16 @@ ul, ol {
 }
 
   .deals {
-    font-family: 'Asap', sans-serif;
-    background-color: floralwhite;
     display: grid;
     overflow: hidden;
-    max-width: 30em;
     margin: 1em 0;
     text-align: center;
     box-shadow: 5px 5px 1em rgba(0, 0, 0, .5);
-    font-family: 'Questrial', sans-serif;
   }
-  .deals h1  {
+  .cozumel {
+    background-color: floralwhite;
+  }
+  .cozumel h1  {
       font-family: 'EB Garamond', serif;
       font-size: 1.8em;
       font-style: italic;
@@ -257,7 +256,7 @@ ul, ol {
       padding: 0.5em 0.7em;
       color: rgb(93, 97, 94);
   }
-  .deals h2 {
+  .cozumel h2 {
       font-family: 'EB Garamond', serif;
       font-size: 1.3em;
       font-weight: 400;
@@ -265,11 +264,11 @@ ul, ol {
       color: rgb(65, 63, 63);
       margin: 0.5em 0;;
   }
-  .deals p {
+  .cozumel p {
       font-family: 'EB Garamond', serif;
       font-size: 1em;
       line-height: 1.4em;
-      margin: 0.5em 1em;
+      margin: 0.5em 1em 1em 1.2em;
   }
   .week h1 {
       font-size: 1.5em;
@@ -363,27 +362,17 @@ ul, ol {
         padding: 0.5em 0;
         font-size: 1.5em;
     }
-    .main {
+    .destinations {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 
-            "america america"
-            "ameone ametwo"
-            "amethree amefour"
-            "europe europe"
-            "head head"
-            "side stry"
-            "side rltd"
-            "foot foot"
-            "head head"
-            "side stry"
-            "side rltd";
-        }
-    .america-text {
-        grid-area: america;
-        grid-column-start: 1;
-        grid-column-end: 2;
-    }    
+        grid-gap: 1em;
+    }
+    .more {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+    }
+
     .more-subtittle {
         font-size: 2em;
         padding: 0.3em 0;
